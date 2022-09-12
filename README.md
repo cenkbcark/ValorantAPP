@@ -9,7 +9,8 @@ There's a un-official free api on net. I've decided to use it for creating an ap
 
 ```html
 I prefer MVC for this project to go forward.
-```html
+```
+
 
 <h2>Features<h2>
   
