@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FA2D3B2C3A8EE5F5EA06EAB /* Pods_ValorantAPP_ValorantAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2344DDDCB7A00217CFA845B8 /* Pods_ValorantAPP_ValorantAPPUITests.framework */; };
+		BC1C900828CF424E00BD73AF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C900728CF424E00BD73AF /* NetworkService.swift */; };
+		BC1C900A28CF425900BD73AF /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C900928CF425900BD73AF /* CharacterModel.swift */; };
+		BC1C900E28CF433400BD73AF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C900D28CF433400BD73AF /* DetailsViewController.swift */; };
+		BC1C901228CF45B400BD73AF /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C901128CF45B400BD73AF /* CharacterCell.swift */; };
 		BC9B0DF128CEA1500016DD77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B0DF028CEA1500016DD77 /* AppDelegate.swift */; };
 		BC9B0DF328CEA1500016DD77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B0DF228CEA1500016DD77 /* SceneDelegate.swift */; };
-		BC9B0DF528CEA1500016DD77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B0DF428CEA1500016DD77 /* ViewController.swift */; };
+		BC9B0DF528CEA1500016DD77 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B0DF428CEA1500016DD77 /* CharactersViewController.swift */; };
 		BC9B0DF828CEA1500016DD77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9B0DF628CEA1500016DD77 /* Main.storyboard */; };
 		BC9B0DFA28CEA1560016DD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9B0DF928CEA1560016DD77 /* Assets.xcassets */; };
 		BC9B0DFD28CEA1560016DD77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9B0DFB28CEA1560016DD77 /* LaunchScreen.storyboard */; };
 		BC9B0E0828CEA1560016DD77 /* ValorantAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B0E0728CEA1560016DD77 /* ValorantAPPTests.swift */; };
 		BC9B0E1228CEA1570016DD77 /* ValorantAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B0E1128CEA1570016DD77 /* ValorantAPPUITests.swift */; };
 		BC9B0E1428CEA1570016DD77 /* ValorantAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B0E1328CEA1570016DD77 /* ValorantAPPUITestsLaunchTests.swift */; };
+		BCADA04E28CFB0E4001AE36B /* DetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCADA04D28CFB0E3001AE36B /* DetailsCollectionViewCell.swift */; };
+		BCADA05028CFCC3A001AE36B /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCADA04F28CFCC39001AE36B /* sound.wav */; };
+		DBA45F6068C4F9F337A6AC27 /* Pods_ValorantAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACCD9CD8A834841B23BC052 /* Pods_ValorantAPP.framework */; };
+		FDADDCA71E966F44882381E7 /* Pods_ValorantAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8955D3221387AE3C6582BA66 /* Pods_ValorantAPPTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +45,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FF25BF771DF369D8FECD1D7 /* Pods-ValorantAPP-ValorantAPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValorantAPP-ValorantAPPUITests.debug.xcconfig"; path = "Target Support Files/Pods-ValorantAPP-ValorantAPPUITests/Pods-ValorantAPP-ValorantAPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2344DDDCB7A00217CFA845B8 /* Pods_ValorantAPP_ValorantAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValorantAPP_ValorantAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA8308FBDCB2C504BFE1E6D /* Pods-ValorantAPP-ValorantAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValorantAPP-ValorantAPPUITests.release.xcconfig"; path = "Target Support Files/Pods-ValorantAPP-ValorantAPPUITests/Pods-ValorantAPP-ValorantAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88D89FD6814BACF2755A9501 /* Pods-ValorantAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValorantAPPTests.release.xcconfig"; path = "Target Support Files/Pods-ValorantAPPTests/Pods-ValorantAPPTests.release.xcconfig"; sourceTree = "<group>"; };
+		8955D3221387AE3C6582BA66 /* Pods_ValorantAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValorantAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24B2C91871878C4072232AC /* Pods-ValorantAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValorantAPP.release.xcconfig"; path = "Target Support Files/Pods-ValorantAPP/Pods-ValorantAPP.release.xcconfig"; sourceTree = "<group>"; };
+		BC1C900728CF424E00BD73AF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BC1C900928CF425900BD73AF /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		BC1C900D28CF433400BD73AF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		BC1C901128CF45B400BD73AF /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		BC9B0DED28CEA1500016DD77 /* ValorantAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValorantAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9B0DF028CEA1500016DD77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC9B0DF228CEA1500016DD77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC9B0DF428CEA1500016DD77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC9B0DF428CEA1500016DD77 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		BC9B0DF728CEA1500016DD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC9B0DF928CEA1560016DD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC9B0DFC28CEA1560016DD77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,11 @@
 		BC9B0E0D28CEA1570016DD77 /* ValorantAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValorantAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9B0E1128CEA1570016DD77 /* ValorantAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantAPPUITests.swift; sourceTree = "<group>"; };
 		BC9B0E1328CEA1570016DD77 /* ValorantAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCADA04D28CFB0E3001AE36B /* DetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		BCADA04F28CFCC39001AE36B /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
+		E12C870B4C0931087C9B7842 /* Pods-ValorantAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValorantAPPTests.debug.xcconfig"; path = "Target Support Files/Pods-ValorantAPPTests/Pods-ValorantAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2B9522B3377022379A104A5 /* Pods-ValorantAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValorantAPP.debug.xcconfig"; path = "Target Support Files/Pods-ValorantAPP/Pods-ValorantAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		EACCD9CD8A834841B23BC052 /* Pods_ValorantAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValorantAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA45F6068C4F9F337A6AC27 /* Pods_ValorantAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDADDCA71E966F44882381E7 /* Pods_ValorantAPPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA2D3B2C3A8EE5F5EA06EAB /* Pods_ValorantAPP_ValorantAPPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DDDD84053A59E023C05B98A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2B9522B3377022379A104A5 /* Pods-ValorantAPP.debug.xcconfig */,
+				A24B2C91871878C4072232AC /* Pods-ValorantAPP.release.xcconfig */,
+				1FF25BF771DF369D8FECD1D7 /* Pods-ValorantAPP-ValorantAPPUITests.debug.xcconfig */,
+				7EA8308FBDCB2C504BFE1E6D /* Pods-ValorantAPP-ValorantAPPUITests.release.xcconfig */,
+				E12C870B4C0931087C9B7842 /* Pods-ValorantAPPTests.debug.xcconfig */,
+				88D89FD6814BACF2755A9501 /* Pods-ValorantAPPTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2E97DBFF0D0F15B62B60EDDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EACCD9CD8A834841B23BC052 /* Pods_ValorantAPP.framework */,
+				2344DDDCB7A00217CFA845B8 /* Pods_ValorantAPP_ValorantAPPUITests.framework */,
+				8955D3221387AE3C6582BA66 /* Pods_ValorantAPPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC1C900228CF419F00BD73AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC1C900928CF425900BD73AF /* CharacterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC1C900328CF41A300BD73AF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BC1C900728CF424E00BD73AF /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BC1C900528CF41B300BD73AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCADA05328CFD06C001AE36B /* Details */,
+				BCADA05228CFD063001AE36B /* Characters */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC1C900628CF41C000BD73AF /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B0DF228CEA1500016DD77 /* SceneDelegate.swift */,
+				BC9B0DF028CEA1500016DD77 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		BC9B0DE428CEA14F0016DD77 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +167,8 @@
 				BC9B0E0628CEA1560016DD77 /* ValorantAPPTests */,
 				BC9B0E1028CEA1570016DD77 /* ValorantAPPUITests */,
 				BC9B0DEE28CEA1500016DD77 /* Products */,
+				0DDDD84053A59E023C05B98A /* Pods */,
+				2E97DBFF0D0F15B62B60EDDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +185,11 @@
 		BC9B0DEF28CEA1500016DD77 /* ValorantAPP */ = {
 			isa = PBXGroup;
 			children = (
-				BC9B0DF028CEA1500016DD77 /* AppDelegate.swift */,
-				BC9B0DF228CEA1500016DD77 /* SceneDelegate.swift */,
-				BC9B0DF428CEA1500016DD77 /* ViewController.swift */,
+				BCADA05128CFD015001AE36B /* AudioFiles */,
+				BC1C900628CF41C000BD73AF /* Delegates */,
+				BC1C900528CF41B300BD73AF /* Controller */,
+				BC1C900328CF41A300BD73AF /* Service */,
+				BC1C900228CF419F00BD73AF /* Model */,
 				BC9B0DF628CEA1500016DD77 /* Main.storyboard */,
 				BC9B0DF928CEA1560016DD77 /* Assets.xcassets */,
 				BC9B0DFB28CEA1560016DD77 /* LaunchScreen.storyboard */,
@@ -127,6 +215,32 @@
 			path = ValorantAPPUITests;
 			sourceTree = "<group>";
 		};
+		BCADA05128CFD015001AE36B /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BCADA04F28CFCC39001AE36B /* sound.wav */,
+			);
+			path = AudioFiles;
+			sourceTree = "<group>";
+		};
+		BCADA05228CFD063001AE36B /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B0DF428CEA1500016DD77 /* CharactersViewController.swift */,
+				BC1C901128CF45B400BD73AF /* CharacterCell.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		BCADA05328CFD06C001AE36B /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				BCADA04D28CFB0E3001AE36B /* DetailsCollectionViewCell.swift */,
+				BC1C900D28CF433400BD73AF /* DetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC9B0E1728CEA1570016DD77 /* Build configuration list for PBXNativeTarget "ValorantAPP" */;
 			buildPhases = (
+				1E7FA210081FC779E2CC2025 /* [CP] Check Pods Manifest.lock */,
 				BC9B0DE928CEA14F0016DD77 /* Sources */,
 				BC9B0DEA28CEA14F0016DD77 /* Frameworks */,
 				BC9B0DEB28CEA14F0016DD77 /* Resources */,
+				71952D605064C5DFDA7549A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +267,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC9B0E1A28CEA1570016DD77 /* Build configuration list for PBXNativeTarget "ValorantAPPTests" */;
 			buildPhases = (
+				CBB81008A30D5A676AF90C3D /* [CP] Check Pods Manifest.lock */,
 				BC9B0DFF28CEA1560016DD77 /* Sources */,
 				BC9B0E0028CEA1560016DD77 /* Frameworks */,
 				BC9B0E0128CEA1560016DD77 /* Resources */,
@@ -169,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC9B0E1D28CEA1570016DD77 /* Build configuration list for PBXNativeTarget "ValorantAPPUITests" */;
 			buildPhases = (
+				71B4D37588E787B196E12BD3 /* [CP] Check Pods Manifest.lock */,
 				BC9B0E0928CEA1570016DD77 /* Sources */,
 				BC9B0E0A28CEA1570016DD77 /* Frameworks */,
 				BC9B0E0B28CEA1570016DD77 /* Resources */,
+				472C67BB0CA0CEC09C4AD747 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +352,7 @@
 			files = (
 				BC9B0DFD28CEA1560016DD77 /* LaunchScreen.storyboard in Resources */,
 				BC9B0DFA28CEA1560016DD77 /* Assets.xcassets in Resources */,
+				BCADA05028CFCC3A001AE36B /* sound.wav in Resources */,
 				BC9B0DF828CEA1500016DD77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +373,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E7FA210081FC779E2CC2025 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ValorantAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		472C67BB0CA0CEC09C4AD747 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValorantAPP-ValorantAPPUITests/Pods-ValorantAPP-ValorantAPPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValorantAPP-ValorantAPPUITests/Pods-ValorantAPP-ValorantAPPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ValorantAPP-ValorantAPPUITests/Pods-ValorantAPP-ValorantAPPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71952D605064C5DFDA7549A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValorantAPP/Pods-ValorantAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValorantAPP/Pods-ValorantAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ValorantAPP/Pods-ValorantAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71B4D37588E787B196E12BD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ValorantAPP-ValorantAPPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB81008A30D5A676AF90C3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ValorantAPPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC9B0DE928CEA14F0016DD77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC9B0DF528CEA1500016DD77 /* ViewController.swift in Sources */,
+				BC9B0DF528CEA1500016DD77 /* CharactersViewController.swift in Sources */,
+				BC1C900A28CF425900BD73AF /* CharacterModel.swift in Sources */,
+				BC1C901228CF45B400BD73AF /* CharacterCell.swift in Sources */,
 				BC9B0DF128CEA1500016DD77 /* AppDelegate.swift in Sources */,
+				BC1C900828CF424E00BD73AF /* NetworkService.swift in Sources */,
 				BC9B0DF328CEA1500016DD77 /* SceneDelegate.swift in Sources */,
+				BC1C900E28CF433400BD73AF /* DetailsViewController.swift in Sources */,
+				BCADA04E28CFB0E4001AE36B /* DetailsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +660,7 @@
 		};
 		BC9B0E1828CEA1570016DD77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B9522B3377022379A104A5 /* Pods-ValorantAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +689,7 @@
 		};
 		BC9B0E1928CEA1570016DD77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24B2C91871878C4072232AC /* Pods-ValorantAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +718,7 @@
 		};
 		BC9B0E1B28CEA1570016DD77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E12C870B4C0931087C9B7842 /* Pods-ValorantAPPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +739,7 @@
 		};
 		BC9B0E1C28CEA1570016DD77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D89FD6814BACF2755A9501 /* Pods-ValorantAPPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +760,7 @@
 		};
 		BC9B0E1E28CEA1570016DD77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF25BF771DF369D8FECD1D7 /* Pods-ValorantAPP-ValorantAPPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +779,7 @@
 		};
 		BC9B0E1F28CEA1570016DD77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA8308FBDCB2C504BFE1E6D /* Pods-ValorantAPP-ValorantAPPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
