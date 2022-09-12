@@ -1,0 +1,6 @@
+framework module Pods_ValorantAPPTests {
+  umbrella header "Pods-ValorantAPPTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
