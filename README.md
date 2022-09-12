@@ -12,14 +12,15 @@ I prefer MVC for this project to go forward.
 ```
 
 <h2>Features<h2>
-
-```html
+  
+ ```html
 CollectionViews
 CustomViews and AutoLayout
 Modular design pattern
 Pop-up blur view
 Audio play
 ```
+
 
 <h3>3rd Party Libraries</h3>
 
