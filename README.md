@@ -23,7 +23,7 @@ Audio play
 ```
 
 
-<h3>3rd Party Libraries</h3>
+<h2>3rd Party Libraries</h2>
 
 ```html
 I prefer KingFisher for asynchronous image downloading and caching.
