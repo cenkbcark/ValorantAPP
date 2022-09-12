@@ -36,6 +36,12 @@ I prefer KingFisher for asynchronous image downloading and caching.
 <img width="345" alt="Detail" src="https://user-images.githubusercontent.com/79763515/189765938-73fd565c-843c-4f91-a543-5b931089a1d1.png">
 
 <img width="335" alt="Skill" src="https://user-images.githubusercontent.com/79763515/189765958-3ed3fbf7-8308-4f6e-8c6d-f99fa3ae16ad.png">
+  
+
+
+https://user-images.githubusercontent.com/79763515/189766821-494de34d-40dc-42da-a33f-5e2cc93f6569.MOV
+
+
 
 
 
