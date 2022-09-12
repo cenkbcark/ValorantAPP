@@ -1,4 +1,3 @@
-//
 //  DetailsCollectionViewCell.swift
 //  ValorantAPP
 //
