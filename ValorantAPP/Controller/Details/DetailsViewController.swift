@@ -43,6 +43,7 @@ final class DetailsViewController: UIViewController {
         //POPUP VIEW SETTINGS
         blurView.bounds = self.view.bounds
         popUpView.bounds = CGRect(x: 0, y: 0, width: self.view.bounds.width * 0.9, height: self.view.bounds.height * 0.3)
+        popUpView.layer.cornerRadius = 20
         //Display UI
         setAllData()
        
@@ -74,8 +75,9 @@ final class DetailsViewController: UIViewController {
         animateOut(view: blurView)
     }
     @IBAction func playAudio(_ sender: Any) {
+        let selectedAudio = selectedCharacter?.displayName!
         
-        let url = Bundle.main.url(forResource: "sound", withExtension: "wav")
+        let url = Bundle.main.url(forResource: "\(selectedAudio!)", withExtension: "wav")
         do{
             try player = AVAudioPlayer(contentsOf: url!)
         }catch{

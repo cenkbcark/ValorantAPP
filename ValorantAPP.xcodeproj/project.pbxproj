@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7FA2D3B2C3A8EE5F5EA06EAB /* Pods_ValorantAPP_ValorantAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2344DDDCB7A00217CFA845B8 /* Pods_ValorantAPP_ValorantAPPUITests.framework */; };
+		BC16A61D28CFDB4600593D78 /* Jett.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC16A61928CFDB4600593D78 /* Jett.wav */; };
+		BC16A61E28CFDB4600593D78 /* Fade.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC16A61A28CFDB4600593D78 /* Fade.wav */; };
+		BC16A61F28CFDB4600593D78 /* Breach.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC16A61B28CFDB4600593D78 /* Breach.wav */; };
+		BC16A62028CFDB4600593D78 /* Raze.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC16A61C28CFDB4600593D78 /* Raze.wav */; };
 		BC1C900828CF424E00BD73AF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C900728CF424E00BD73AF /* NetworkService.swift */; };
 		BC1C900A28CF425900BD73AF /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C900928CF425900BD73AF /* CharacterModel.swift */; };
 		BC1C900E28CF433400BD73AF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1C900D28CF433400BD73AF /* DetailsViewController.swift */; };
@@ -51,6 +55,10 @@
 		88D89FD6814BACF2755A9501 /* Pods-ValorantAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValorantAPPTests.release.xcconfig"; path = "Target Support Files/Pods-ValorantAPPTests/Pods-ValorantAPPTests.release.xcconfig"; sourceTree = "<group>"; };
 		8955D3221387AE3C6582BA66 /* Pods_ValorantAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValorantAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24B2C91871878C4072232AC /* Pods-ValorantAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValorantAPP.release.xcconfig"; path = "Target Support Files/Pods-ValorantAPP/Pods-ValorantAPP.release.xcconfig"; sourceTree = "<group>"; };
+		BC16A61928CFDB4600593D78 /* Jett.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Jett.wav; sourceTree = "<group>"; };
+		BC16A61A28CFDB4600593D78 /* Fade.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fade.wav; sourceTree = "<group>"; };
+		BC16A61B28CFDB4600593D78 /* Breach.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Breach.wav; sourceTree = "<group>"; };
+		BC16A61C28CFDB4600593D78 /* Raze.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Raze.wav; sourceTree = "<group>"; };
 		BC1C900728CF424E00BD73AF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		BC1C900928CF425900BD73AF /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		BC1C900D28CF433400BD73AF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
@@ -218,6 +226,10 @@
 		BCADA05128CFD015001AE36B /* AudioFiles */ = {
 			isa = PBXGroup;
 			children = (
+				BC16A61B28CFDB4600593D78 /* Breach.wav */,
+				BC16A61A28CFDB4600593D78 /* Fade.wav */,
+				BC16A61928CFDB4600593D78 /* Jett.wav */,
+				BC16A61C28CFDB4600593D78 /* Raze.wav */,
 				BCADA04F28CFCC39001AE36B /* sound.wav */,
 			);
 			path = AudioFiles;
@@ -351,8 +363,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9B0DFD28CEA1560016DD77 /* LaunchScreen.storyboard in Resources */,
+				BC16A61D28CFDB4600593D78 /* Jett.wav in Resources */,
+				BC16A61F28CFDB4600593D78 /* Breach.wav in Resources */,
 				BC9B0DFA28CEA1560016DD77 /* Assets.xcassets in Resources */,
 				BCADA05028CFCC3A001AE36B /* sound.wav in Resources */,
+				BC16A61E28CFDB4600593D78 /* Fade.wav in Resources */,
+				BC16A62028CFDB4600593D78 /* Raze.wav in Resources */,
 				BC9B0DF828CEA1500016DD77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
