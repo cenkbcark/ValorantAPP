@@ -12,7 +12,7 @@ I prefer MVC for this project to go forward.
 ```
 
 
-<h2>Features<h2>
+<h2>Features</h2>
   
  ```html
 CollectionViews
